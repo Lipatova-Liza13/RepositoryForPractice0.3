@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonTapped(_ sender: Any) {
+        label.text = "Button was tapped"
     }
 
 }
